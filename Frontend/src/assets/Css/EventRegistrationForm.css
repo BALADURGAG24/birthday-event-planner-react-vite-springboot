@@ -1,0 +1,98 @@
+.event-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-form-container label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.event-form-container input,
+.event-form-container select {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.event-form-container button {
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.bg1 {
+  background-image: url('../images/bg1.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sideheadingsignin {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.siginforgotchange {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  font-size: 16px;
+  text-align: right;
+}
+
+.containersignin {
+  width: 350px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+.signinheading {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+}
+
+.signinemail {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+}
+
+.signinemailfield {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.signinpassword {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+}

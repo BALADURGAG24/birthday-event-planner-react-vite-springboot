@@ -1,0 +1,27 @@
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    background-image: url('');
+  }
+  
+  .stat {
+    text-align: center;
+    border-right: 1px solid white;
+    padding-right: 10px; 
+  }
+  
+  .stat:last-child {
+    border-right: none;
+  }
+  
+  .stat-value {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .stat-label {
+    font-size: 30px;
+    color:black;
+  }
+  

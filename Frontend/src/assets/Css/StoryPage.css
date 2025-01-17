@@ -1,0 +1,132 @@
+
+.story-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, #36313D, #29252D);
+  color: #fff; /* Change text color to white */
+}
+
+.story-form {
+  width: 100%; 
+  margin-bottom: 20px;
+  border: 1px solid #555;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #4D4452, #36313D);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+/* Style the list */
+.story-list {
+  width: 100%;
+  border: 1px solid #555;
+  background: linear-gradient(to bottom, #36313D, #29252D);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  background: linear-gradient(to bottom, #333366, #1a1a1a); /* Blue and black colors */
+}
+
+table, th, td {
+  border: 1px solid #555;
+}
+
+th {
+  padding: 8px;
+  text-align: center;
+  background: linear-gradient(to bottom, #606060, #4d4d4d); /* Grey and black colors */
+  color: #fff;
+  font-weight: bold;
+}
+
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style the buttons */
+.edb, .ddb, .edbb {
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.edb {
+  background: linear-gradient(to bottom, #009933, #007726); /* Shades of green */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100px;
+  margin-top: 20px;
+  color: #fff; /* Change text color to white */
+}
+
+.ddb {
+  background: linear-gradient(to bottom, #FF3333, #CC0000); /* Shades of red */
+  width: 100px;
+  margin-top: 20px;
+  color: #fff; /* Change text color to white */
+}
+
+.edbb {
+  background: linear-gradient(to bottom, #3399FF, #0066CC); /* Shades of blue */
+  width: 100px;
+  margin-top: 20px;
+  color: #fff; /* Change text color to white */
+}
+
+/* Center the elements in .yei */
+.yei {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add space between elements in .story-container2 */
+.story-container2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style the create-story elements */
+.create-story {
+  flex-basis: 300px;
+}
+
+.create-story input[type="text"],
+.create-story textarea {
+  width: 100%; /* Make input fields full-width */
+  padding: 8px;
+  margin: 4px 0;
+}
+
+.create-story button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.create-story button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the content */
+.content {
+  margin-top: 10px;
+}

@@ -1,0 +1,115 @@
+.dbside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .dbside a {
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .dbside a:hover {
+    background-color: #555;
+  }
+  
+  .dbmainc {
+    margin-left: 80px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 27px;
+    border-radius: 10px;
+  }
+  
+  .code {
+    color: black;
+    font-family: monospace;
+  }
+  
+  .admin {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .ho {
+    font-family: 'cursive';
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+  }
+  
+  .ho a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .hlo, .qlo, .slo, .ulo {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .cpr, .cpr1, .cpr2, .cpr3 {
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .cpr:hover, .cpr1:hover, .cpr2:hover, .cpr3:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+    background-color: #3aa3e3;
+  }
+  
+  .ns, .nu, .nf {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .what {
+    bottom: 90px;
+    right: 110px;
+    position: fixed;
+  }
+  
+  @media (max-width: 768px) {
+    .dbside {
+        width: 250px;
+    }
+  
+    .dbmainc {
+        margin-left: 250px;
+    }
+  }
+  .what
+  {
+    margin-bottom: -70px;
+    width: 70%;
+  }
+  

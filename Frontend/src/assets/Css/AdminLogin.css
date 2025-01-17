@@ -1,0 +1,95 @@
+/* Common styles for both regular and admin login forms */
+.bg1 {
+    background-color: #f8f9fa;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containersignin {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signinheading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.signinemail,
+.signupemail {
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.signinemailfield,
+.signupemailfield {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signinpassword,
+.signuppassword {
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.signinbutton,
+.signupbutton {
+    width: 100%;
+    background-color:purple;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signinerror-message,
+.signuperror-message {
+    color: red;
+    margin-top: 20px;
+}
+
+/* Admin login form specific styles */
+.adminloginheading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.adminloginbutton {
+    width: 100%;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

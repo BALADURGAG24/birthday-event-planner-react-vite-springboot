@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "birthday.swagger.contact.name",
+    "type": "java.lang.String",
+    "description": "A description for 'birthday.swagger.contact.name'"
+  },
+  {
+    "name": "birthday.properties.expiration",
+    "type": "java.lang.String",
+    "description": "A description for 'birthday.properties.expiration'"
+  },
+  {
+    "name": "birthday.properties.secret_key",
+    "type": "java.lang.String",
+    "description": "A description for 'birthday.properties.secret_key'"
+  },
+  {
+    "name": "birthday.swagger.contact.url",
+    "type": "java.lang.String",
+    "description": "A description for 'birthday.swagger.contact.url'"
+  },
+  {
+    "name": "birthday.swagger.contact.email",
+    "type": "java.lang.String",
+    "description": "A description for 'birthday.swagger.contact.email'"
+  }
+]}

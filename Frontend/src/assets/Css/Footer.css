@@ -1,0 +1,40 @@
+.footer-container {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .footer-column {
+    flex: 0 1 25%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column h3 {
+    font-size: 16px;
+    color: purple;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column ul li a {
+    color:purple;
+    text-decoration: none;
+  }
+  
+  .footer-column p {
+    font-size: 14px;
+    color: purple;
+    margin-bottom: 5px;
+  }
+  

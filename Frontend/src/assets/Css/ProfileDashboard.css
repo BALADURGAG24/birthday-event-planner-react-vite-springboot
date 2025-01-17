@@ -1,0 +1,46 @@
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info {
+    margin-bottom: 10px;
+  }
+  
+  .profile-label {
+    font-weight: bold;
+  }
+  
+  .profile-data {
+    margin-left: 10px;
+  }
+  
+  .profile-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .profile-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  .btn-secondary{
+size: 1000px;
+  }

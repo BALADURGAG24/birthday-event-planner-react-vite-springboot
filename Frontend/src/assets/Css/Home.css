@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('D:\birthday-project\birthday-frontend\src\assets\Images\candles.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero {
+  background-color: black;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero:hover {
+  background-color: #444;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+.hero:hover h1 {
+  color: #ffcc00;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e6b800;
+  color: #fff;
+}
+
+.services-section {
+  padding: 80px 20px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.services-section.show {
+  opacity: 1;
+}
+
+.section-heading {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service {
+  flex: 0 0 calc(33.33% - 20px);
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.service img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.testimonials-section {
+  background-color: black;
+  padding: 80px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial {
+  flex: 1;
+  padding: 20px;
+  margin: 0 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: left;
+  transition: box-shadow 0.3s ease;
+}
+
+.testimonial:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial span {
+  font-weight: bold;
+}
+
+.js
+{
+  color: white;
+}
+
+.homeheading{
+  text-align: center;
+}
