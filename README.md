@@ -16,7 +16,7 @@ A modern and dynamic **Birthday Event Planner** application designed to help use
 - **Spring Data JPA** - ORM for database interaction (e.g., MySQL, PostgreSQL)
 
 #### **Authentication & Authorization**
-- **JWT (JSON Web Tokens)** - Stateless token-based authentication
+- **JWT (JSON Web Tokens)** - Stateless token-based authentication 
 - **Custom Authentication Filter** - `JwtAuthenticationFilter.java` for token validation
 - **User Roles and Permissions** - Managed through `Enum/Role.java` and `Permission.java`
 
