@@ -7,7 +7,7 @@ A modern and dynamic **Birthday Event Planner** application designed to help use
 ## 🛠️ **Tech Stack**  
        
 ### 🔧 **Backend Stack (Java - Spring Boot)**   
-       
+        
 #### **Language & Frameworks**        
 - **Java** - Core language used for backend development       
 - **Spring Boot** - Framework for building REST APIs  
