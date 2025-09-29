@@ -13,7 +13,7 @@ A modern and dynamic **Birthday Event Planner** application designed to help use
 - **Spring Boot** - Framework for building REST APIs     
 - **Spring Security** - Secures endpoints with JWT-based authentication    
 - **Spring Web** - For building web controllers and handling HTTP requests   
-- **Spring Data JPA** - ORM for database interaction (e.g., MySQL, PostgreSQL)
+- **Spring Data JPA** - ORM for database interaction (e.g., MySQL, PostgreSQL) 
 
 #### **Authentication & Authorization**
 - **JWT (JSON Web Tokens)** - Stateless token-based authentication 
