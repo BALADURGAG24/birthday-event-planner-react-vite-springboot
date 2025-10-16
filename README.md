@@ -10,7 +10,7 @@ A modern and dynamic **Birthday Event Planner** application designed to help use
          
 #### **Language & Frameworks**           
 - **Java** - Core language used for backend development        
-- **Spring Boot** - Framework for building REST APIs      
+- **Spring Boot** - Framework for building REST APIs       
 - **Spring Security** - Secures endpoints with JWT-based authentication    
 - **Spring Web** - For building web controllers and handling HTTP requests   
 - **Spring Data JPA** - ORM for database interaction (e.g., MySQL, PostgreSQL) 
